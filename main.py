@@ -9,9 +9,11 @@ import matplotlib.pyplot as plt
 
 # Determinante der Steifigkeitsmatrix K abhängig von omega berechnen
 
+
 # Längsschwingung
 def f_epsilon(omega, L, mu,  E, A, I):
     return L * np.sqrt((mu * omega ** 2) / (E * A))
+
 
 # Querschwingung
 def f_lambda(omega, L, mu,  E, A, I):
